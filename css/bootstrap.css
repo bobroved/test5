@@ -56,6 +56,7 @@ b,
 strong {
   font-weight: bold;
 }
+
 dfn {
   font-style: italic;
 }
@@ -6798,3 +6799,29 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.blocks {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-align: center;
+}
+.blocks li {
+ display: inline-block;
+ width: 32px;
+ height: 32px;
+}
+.block_1 {
+ background: #ccc;
+}
+.block_2 {
+ background: #ccf;
+}
+.block_3 {
+ background: #cfc;
+}
+.block_4 {
+ background: #fcc;
+}
+.block_5 {
+ background: #ffc;
+}
